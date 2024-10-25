@@ -1,0 +1,3 @@
+common --vendor_dir=../vendor_src
+
+startup --digest_function=blake3

@@ -1,0 +1,7 @@
+module(
+    name = "rules_buck2",
+    version = "0.0.1",
+    compatibility_level = 1,
+)
+
+bazel_dep(name = "aspect_bazel_lib", version = "2.9.3")
